@@ -17,18 +17,18 @@ Request options depend on the permission level of your API key. If you are unsur
 
 **checkAPIPermission(***apikey***)** - Permission Integer Level: ALL
 ```
-\- Queries the Gibbabyte Utilities API to get the Permission Integer of the provided *apikey*.
-\- Either returns an Integer, or a String being an error.
+- Queries the Gibbabyte Utilities API to get the Permission Integer of the provided *apikey*.
+- Either returns an Integer, or a String being an error.
 ```
 **queryDictionary(*dictionaryQueryInformation*)** - Permission Integer Level: 0
 ```
-\- Queries the dictionary API to get information based on the provided *dictionaryQueryInformation* (JSON Object as String) parameter.
-\* - Required
+- Queries the dictionary API to get information based on the provided *dictionaryQueryInformation* (JSON Object as String) parameter.
+* - Required
 
 dictionaryQueryInformation {
   preferredSource: "Gibbabyte"
-  \*retrieveType: "definition"
-  \*inputString: "example"
-  \*inputType: "word"
+  *retrieveType: "definition"
+  *inputString: "example"
+  *inputType: "word"
 }
 ```
