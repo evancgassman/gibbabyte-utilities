@@ -16,8 +16,8 @@ Both parameters must be strings.
 Request options depend on the permission level of your API key. If you are unsure of the permission level of your API, you can check it using **checkAPIPermission(apikey)**.
 
 queryDictionary(*dictionaryQueryInformation*) - Permission Integer Level: 0
-\- Queries the dictionary API to get information based on the provided *dictionaryQueryInformation* (JSON Object as String) parameter.
-\* - Required
+\n\- Queries the dictionary API to get information based on the provided *dictionaryQueryInformation* (JSON Object as String) parameter.
+\n\* - Required
 dictionaryQueryInformation {
   preferredSource: "Gibbabyte"
   \*retrieveType: "definition"
