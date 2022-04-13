@@ -1,2 +1,12 @@
-# gibbabyte-utilities
-A handler for accessing and using the Gibbabyte Utilities API.
+# Gibbabyte Utilities
+Gibbabyte Utilities is a free to access online multipurpose API.
+
+## Install for NodeJS
+```
+npm install gibbabyte-utilities
+```
+
+## Usage and Functions
+```
+GibbabyteUtiltiiesRequest(*apikey*, *request*);
+```
