@@ -5,6 +5,11 @@ Gibbabyte Utilities is a free to access online multipurpose API.
 ```
 npm install gibbabyte-utilities
 ```
+## Install/Use for WebJS
+Download GibbabyteUtilitiesRequest.js and put it in your project directory.
+```
+<script src="GibbabyteUtilitiesRequest.js"></script>
+```
 
 ## Usage and Functions
 ```
