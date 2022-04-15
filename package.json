@@ -1,0 +1,22 @@
+{
+  "name": "gibbabyte-utilities",
+  "version": "2.0.0",
+  "description": "A NodeJS package used to access Gibbabyte Utilities' API.",
+  "main": "GibbabyteUtilitiesRequest.js",
+   "dependencies": {
+	  "xmlhttprequest": "^1.8.0"
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evancgassman/gibbabyte-utilities.git"
+  },
+  "author": "Gibbabyte LLC/Evan Gassman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evancgassman/gibbabyte-utilities/issues"
+  },
+  "homepage": "https://github.com/evancgassman/gibbabyte-utilities#readme"
+}
