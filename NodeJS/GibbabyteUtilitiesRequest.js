@@ -4,7 +4,7 @@
 //  \___|___|___/___/_/ \_\___/ |_|   |_| |___|
 //  By Evan Gassman
 
-function GibbabyteUtilitiesRequest(APIKEY, FUNCTION) {
+module.exports = function GibbabyteUtilitiesRequest(APIKEY, FUNCTION) {
     
     const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     let xhr = new XMLHttpRequest();
@@ -19,5 +19,4 @@ function GibbabyteUtilitiesRequest(APIKEY, FUNCTION) {
     }};
    
     xhr.send(`{"api_key": "`+APIKEY+`", "function": "`+FUNCTION+`"}`);
-
 }
