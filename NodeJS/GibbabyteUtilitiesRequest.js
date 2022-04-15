@@ -4,7 +4,7 @@
 //  \___|___|___/___/_/ \_\___/ |_|   |_| |___|
 //  By Evan Gassman
 
-module.exports = function GibbabyteUtilitiesRequest(APIKEY, FUNCTION) {
+exports = function GibbabyteUtilitiesRequest(APIKEY, FUNCTION) {
     
     const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     let xhr = new XMLHttpRequest();
