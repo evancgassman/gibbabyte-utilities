@@ -37,3 +37,15 @@ dictionaryQueryInformation {
   *inputType: "word"
 }
 ```
+**getNameByColorHex(*colorHex*)** - Permission Integer Level: 0
+```
+- Queries the color API to get the color name based on the provided hexadecimal values.
+* - Required
+
+colorHex suitable examples.
+"#FFFFFF"
+"FFFFFF"
+"#5F3F4F"
+"5F3F4F"
+```
+
