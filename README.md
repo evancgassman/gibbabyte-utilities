@@ -55,4 +55,10 @@ colorHex suitable examples.
 
 colorName is a string and is not case sensitive.
 ```
+**getColorDescriptionByName(*colorName*)** - Permission Integer Level: 0
+```
+- Queries the color API to get the color description based on the provided color name.
+* - Required
 
+colorName is a string and is not case sensitive.
+```
