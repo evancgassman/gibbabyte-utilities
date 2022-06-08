@@ -48,4 +48,11 @@ colorHex suitable examples.
 "#5F3F4F"
 "5F3F4F"
 ```
+**getColorHexByName(*colorName*)** - Permission Integer Level: 0
+```
+- Queries the color API to get the hexadecimal values based on the provided color name.
+* - Required
+
+colorName is a string and is not case sensitive.
+```
 
