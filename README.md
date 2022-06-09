@@ -73,3 +73,8 @@ colorHex suitable examples.
 "#5F3F4F"
 "5F3F4F"
 ```
+**RGBToHSL(*red*, *green*, *blue*)** - Permission Integer Level: 0
+```
+- Queries the color API to convert a rgb value to hsl.
+* - Required
+```
