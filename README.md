@@ -62,3 +62,14 @@ colorName is a string and is not case sensitive.
 
 colorName is a string and is not case sensitive.
 ```
+**hexToRGB(*colorHex*)** - Permission Integer Level: 0
+```
+- Queries the color API to convert a hexadecimal color value to the RGB format.
+* - Required
+
+colorHex suitable examples.
+"#FFFFFF"
+"FFFFFF"
+"#5F3F4F"
+"5F3F4F"
+```
