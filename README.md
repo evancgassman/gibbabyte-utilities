@@ -78,3 +78,9 @@ colorHex suitable examples.
 - Queries the color API to convert a rgb value to hsl.
 * - Required
 ```
+**RGBToHSV(*red*, *green*, *blue*)** - Permission Integer Level: 0
+```
+- Queries the color API to convert a rgb value to hsv.
+* - Required
+```
+
